@@ -1,0 +1,15 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: example-cronjob
+spec:
+  schedule: "0 0 * * *"  # Executa todos os dias à meia-noite
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: example
+            image: busybox
+            command: ["echo", "Hello from the CronJob!"]
+          restartPolicy: OnFailure
