@@ -1,7 +1,7 @@
 # Descoshop
 
 > Projeto DevOps criado para um produto fictício "Descoshop"
-> Nele consta:
+> ## Nele consta:
 > * Backend em Kubernetes
 > * Frontend com S3 e CloudFront
 > * Banco de Dados Aurora
