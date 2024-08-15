@@ -5,7 +5,7 @@
 > * Backend em Kubernetes
 > * Frontend com S3 e CloudFront
 > * Banco de Dados Aurora
->   **Tudo aplicado via Terraform com documentação disponível**
+>  ### **Tudo aplicado via Terraform com documentação disponível**
 > * Observabilidade com Grafana
 > * CI/CD com Github Actions  
 
